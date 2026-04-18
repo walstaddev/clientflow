@@ -132,23 +132,23 @@ deployment configuration
 
 ---
 
-# Dos ajustes que te recomiendo hacer en ese README
+# Two adjustments I recommend making to that README
 
 ## 1. “closed clients”
-Como decidimos que el dashboard representa `status = cliente`, ahí está bien decir:
+How did we decide that the dashboard represents `status = cliente`, It's okay to say that:
 
 - **closed clients**
 
-queda mejor que “active clients”, porque es más consistente con la lógica actual.
+It looks better than “active clients”, because it is more consistent with current logic.
 
 ## 2. SQLite
-Yo lo dejaría indicado tal cual, porque es verdad y no pasa nada.
+I would leave it as is, because it's true and nothing bad will happen.
 
 ---
 
-# Una nota importante sobre este comando del README
+# An important note about this command of README
 
-En Windows, esta línea:
+In Windows, this line:
 
 bash id="6bhl95"
 cp .env.example .env
