@@ -79,29 +79,29 @@ The dashboard currently includes:
 1. Clone the repository
 
 2. Install PHP dependencies
-```bash
+bash
 composer install
 
 3. Install frontend dependencies
-```bash
+bash
 npm install
 
 4. Copy the environment file
-```bash
+bash
 cp .env.example .env
 
 5. Generate the application key
-```bash
+bash
 php artisan key:generate
 
 6. Create the SQLite database file or configure your database connection in .env
 
 7. Run migrations
-```bash
+bash
 php artisan migrate
 
 8. Start Vite
-```bash
+bash
 npm run dev
 
 9. Serve the project locally using Laravel Herd or your local Laravel environment
@@ -150,7 +150,7 @@ Yo lo dejaría indicado tal cual, porque es verdad y no pasa nada.
 
 En Windows, esta línea:
 
-```bash id="6bhl95"
+bash id="6bhl95"
 cp .env.example .env
 
 
